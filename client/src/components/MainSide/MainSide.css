@@ -1,0 +1,32 @@
+.main-side {
+  width: 280px;
+  height: 100vh;
+  background-color: #18191a;
+  padding: 10px;
+  top: 56px;
+}
+
+.primary-text-color {
+  color: #e4e6eb;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+.sidebar-icons {
+  width: 36px;
+  height: 36px;
+}
+
+.side-avatar {
+  width: 36px;
+  height: 36px;
+}
+
+.side-list {
+  cursor: pointer;
+}
+
+.side-list:hover {
+  background-color: #ffffff1a;
+  border-radius: 10px;
+}

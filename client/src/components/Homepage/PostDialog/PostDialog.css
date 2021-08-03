@@ -1,0 +1,143 @@
+.post-form .MuiPaper-root {
+  width: 500px;
+  height: 430px;
+}
+
+.post-form .MuiDialog-container {
+  background-color: #0b0b0bcc !important;
+}
+
+.post-form .MuiDialogTitle-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #242526;
+  border-bottom: 1px solid #ffffff0d;
+}
+
+.post-form .MuiDialogContent-root {
+  background-color: #242526;
+  padding: 0 16px !important;
+}
+
+.post-form-title {
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  color: #e4e6eb;
+}
+
+.post-btn {
+  background-color: #2d88ff;
+  height: 36px;
+  font-size: 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.disabled {
+  background-color: #ffffff33;
+  color: #ffffff4d;
+  cursor: not-allowed;
+}
+
+.post-form textarea {
+  background-color: #242526;
+  color: #e4e6eb;
+  width: 100%;
+  height: 120px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  resize: none;
+}
+
+.face-icon {
+  display: inline-block;
+
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/kJ9Uf9c5nTV.png");
+  background-size: 74px 468px;
+  background-repeat: no-repeat;
+  background-position: 0 -186px;
+
+  height: 24px;
+  width: 24px;
+}
+
+.func-icons {
+  display: inline-block;
+
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/wpWpSgLmTYK.png");
+  background-size: 26px 354px;
+  background-repeat: no-repeat;
+
+  height: 24px;
+  width: 24px;
+}
+
+.photos-videos {
+  background-position: 0 -156px;
+}
+
+.tag-friends {
+  background-position: 0 -52px;
+}
+
+.feeling {
+  background-position: 0 -26px;
+}
+
+.checkin {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/A4EqdR-_r3N.png") !important;
+  background-size: 26px 338px !important;
+  background-position: 0 -312px;
+}
+
+.qa {
+  background-position: 0 -104px;
+}
+
+.more {
+  background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/kJ9Uf9c5nTV.png") !important;
+  background-size: 74px 468px !important;
+  background-position: -26px -160px;
+}
+
+.inner-post-func {
+  display: flex;
+  flex-direction: row;
+}
+
+.inner-post-func > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.cancel-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+
+  top: 12px;
+  right: 16px;
+
+  width: 35px;
+  height: 35px;
+
+  background-color: #3a3b3c;
+  border-radius: 100%;
+
+  cursor: pointer;
+}
+
+.cancel-btn svg {
+  width: 30px !important;
+  height: 30px !important;
+  color: #8c8f92;
+}

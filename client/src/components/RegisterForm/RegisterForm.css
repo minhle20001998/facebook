@@ -1,0 +1,179 @@
+.MuiPaper-root {
+  width: 432px;
+}
+
+.MuiDialog-container {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.MuiDialogTitle-root {
+  padding: 10px 16px !important;
+}
+
+.MuiDialogActions-root {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 72px;
+}
+
+.register-title {
+  color: #1c1e21;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.register-sub {
+  color: #606770;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.register-hr {
+  border: none;
+  border-bottom: 1px solid #dadde1;
+}
+
+.register-form-content {
+  padding: 16px !important;
+}
+
+#form-dialog-title {
+  position: relative;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.input-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.input-area input {
+  width: 194px;
+  padding: 11px;
+  border: 1px solid #ccd0d5;
+  border-radius: 5px;
+  background: #f5f6f7;
+}
+
+.input-area input::placeholder {
+  color: #7e8791;
+}
+
+.input-text {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+.max {
+  width: 100% !important;
+}
+
+.select-area {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+
+.select-area p {
+  color: #606770;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+.dob-selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dob-selection select {
+  border-radius: 4px;
+  color: #1c1e21;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: normal;
+  height: 36px;
+  line-height: 20px;
+  padding: 0 8px;
+  width: 125px;
+  border: 1px solid #ccd0d5;
+}
+
+.gender-selection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gender-selection .gender {
+  background-color: #fff;
+  border: 1px solid #ccd0d5;
+  box-sizing: border-box;
+  display: inline-block;
+  font-weight: normal;
+  height: 36px;
+  padding: 0;
+  position: relative;
+  width: 194px;
+  border-radius: 4px;
+}
+
+.gender-selection .gender label {
+  box-sizing: border-box;
+  color: #1c1e21;
+  display: inline-block;
+  font-family: SFProText-Medium, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 36px;
+  padding: 0 28px 0 10px;
+  width: 100%;
+}
+
+.gender-selection .gender input {
+  height: 36px;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 0;
+}
+
+.term {
+  color: #777;
+  font-size: 11px;
+  line-height: 1.34;
+}
+
+#save-btn {
+  font-weight: bold;
+  background: none;
+  background-color: #00a400;
+  border: none;
+  border-radius: 6px;
+  box-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 36px;
+  overflow: hidden;
+  padding: 0 32px;
+  text-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  letter-spacing: 1px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 194px;
+}

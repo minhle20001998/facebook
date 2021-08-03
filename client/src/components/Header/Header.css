@@ -1,0 +1,108 @@
+.main-nav {
+  height: 56px;
+  width: calc(100% - 17px);
+  padding: 5px 15px;
+  background-color: #242526;
+  border-bottom: 1px solid #363738;
+  top: 0;
+  left: 0;
+}
+
+.facebook-logo {
+  margin-right: 8px;
+}
+
+.facebook-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.p361ku9c {
+  fill: white;
+}
+
+.fill-white {
+  fill: #b0b3b8;
+}
+
+.label-search-all {
+  position: relative;
+}
+
+.label-search-all input {
+  width: 240px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #3a3b3c;
+  border: none;
+  outline: none;
+  padding-left: 40px;
+  font-size: 14px;
+  color: rgb(233, 233, 233);
+}
+
+.search-icon {
+  color: #a0a2a5;
+  position: absolute;
+  top: 10px;
+  left: 9px;
+}
+
+.main-nav-list li {
+  width: 111px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.main-nav-list li:hover {
+  background-color: #ffffff1a;
+  border-radius: 10px;
+}
+
+#search-all::placeholder {
+  color: #9b9ea2;
+}
+
+.avatar {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+.white-icons {
+  color: white;
+}
+
+.app-icon {
+  width: 26px !important;
+  height: 26px !important;
+}
+
+.side-icons {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3a3b3c;
+  margin-left: 10px;
+}
+
+.notify-icon {
+  width: 23px !important;
+  height: 23px !important;
+}
+
+.arrowdown-icon {
+  width: 34px !important;
+  height: 34px !important;
+}
+
+@media screen and (max-width: 1170px) {
+  .label-search-all input {
+    width: 40px;
+  }
+}
